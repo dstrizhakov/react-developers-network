@@ -1,0 +1,42 @@
+.header {
+    background-color: #0c1521;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.logo {
+    margin: 0px 80px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: teal;
+    cursor: pointer;
+    transition: color 0.3s ease 0s;
+}
+
+.logo:hover{
+    color: goldenrod;
+}
+
+.logo  span{
+    color: goldenrod;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 80px;
+}
+
+.menu  li{
+    font-size: 18px;
+    padding: 0px 10px;
+    color: teal;
+    transition: color 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.menu  li:hover{
+    color: goldenrod;
+}

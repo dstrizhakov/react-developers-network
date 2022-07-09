@@ -1,4 +1,23 @@
 .App-wrapper {
+  height: 100vh;
+  color: teal;
   text-align: center;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 50px 1fr;
+  grid-template-areas:
+          "head head"
+          "nav cont"
+;
 }
 
+.header {
+grid-area: head;
+}
+.navbar {
+
+  grid-area: nav;
+}
+.content{
+  grid-area: cont;
+}

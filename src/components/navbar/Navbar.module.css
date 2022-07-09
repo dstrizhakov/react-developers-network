@@ -1,0 +1,20 @@
+.navbar{
+
+}
+.menu{
+    margin: 30px 40px;
+    text-align: left;
+
+}
+.menu li{
+    color: teal;
+    text-transform: uppercase;
+    padding: 6px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    transition: color 0.3s ease 0s;
+
+}
+.menu li:hover{
+    color: goldenrod;
+}
